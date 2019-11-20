@@ -1,0 +1,116 @@
+.Nav {
+  height: 13vh;
+  width: 100%;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.Nav-title {
+  background: rgb(156, 217, 217, 0.5);
+  width: 36vw;
+  padding: 3vh;
+}
+
+.Nav-title a {
+  color:#000;
+  font-family: "Blinker";
+  font-size: 30px;
+  transition-duration: 0.25s;
+}
+
+.Nav-title a:hover {
+  opacity: 0.4;
+}
+
+.Nav-menu {
+  background: rgb(242, 233, 186, 0.5);
+  width: 64vw;
+  padding: 3.7vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav-text_link {
+  color: #796F6D;
+  font-size: 24px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition-duration: 0.25s;
+}
+
+.Nav-text_link:hover {
+  opacity: 0.4;
+}
+
+@media(max-width:1400px) {
+
+  .Nav-title {
+    width: 35.7vw;
+  }
+}
+
+@media(max-width:1200px) {
+
+  .Nav-title {
+    width: 35.5vw;
+  }
+}
+
+@media(max-width:1100px) {
+
+  .Nav {
+    height: 10vh;
+
+  }
+
+  .Nav-title {
+    width: 35.5vw;
+  }
+
+  .Nav-title a {
+    font-size: 25px;
+  }
+
+  .Nav-text_link {
+
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+@media(max-width:1000px) {
+
+  .Nav-title {
+    width: 35.2vw;
+  }
+
+  .Nav-menu {
+    display: 67vw;
+  }
+}
+
+@media(max-width:900px) {
+
+  .Nav-title {
+    width: 35vw;
+  }
+
+  .Nav-menu {
+    display: 65vw;
+  }
+}
+
+@media(max-width:800px) {
+
+  .Nav-title {
+    background: rgb(242, 233, 186, 0.5);
+    width: 100%;
+  }
+
+  .Nav-menu {
+    display: none;
+  }
+} 

@@ -1,0 +1,21 @@
+.SideNav {
+    position: absolute;
+    top: 300px;
+    right: 1vw;
+}
+
+.SideNav-link {
+    border: 1px solid #000;
+    width: 33px;
+    height: 33px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: block;
+    margin: 20px;
+}
+
+.current {
+    background: #00CDFD;
+    padding: 4px;
+    background-clip: content-box;
+} 

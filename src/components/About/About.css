@@ -1,0 +1,354 @@
+
+/* This is for desktop */
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100%;
+}
+
+/* LEFT STUFF */
+.left-about{
+    width: 50vw;
+    background-color: #F2E9BB;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-about-info {
+    background-color: #9CD9D9;
+    width: 57%;
+    height: 20%; 
+    padding: 4vh 3vw 4vh 5vw;
+}
+
+.left-about-info>h2 {
+    font-size: 36px;
+    font-family: Marion;
+}
+
+.left-about-note{
+    color: #3A3A3A;
+    font-size: 16px;
+    margin: 2vh auto 2vh 5vw;
+}
+
+.left-about-call-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+}
+
+.left-about-call-box1 {
+    background-color: #F29191;
+    padding: 1vw;
+    text-align: center;
+    color: #fff;
+    width: 15vw;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.left-about-call-box1 span {
+    font-size: 14px;
+}
+
+.left-about-call-box2 {
+    background-color: #F29191;
+    margin-left: 2vw;
+    padding: 1vw;
+    text-align: center;
+    width: 15vw;
+    font-weight: bold;
+    color: #F2DAD8;
+    font-size: 24px;
+    line-height: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.left-about-clinic-hours{
+    margin-top: 2vh;
+    width: 75%;
+    padding-left: 5vw;
+    color: #3A3A3A;
+}
+
+.left-about-reviews{
+    margin-top: 5vh;
+    width: 75%;
+    padding-left: 5vw;
+    height: auto;
+}
+
+.review-title {
+    padding: 1vh 0;
+    font-size: 36px;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 3vh;
+}
+
+.review-initial {
+    background: #FFC90A;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height:32px;
+    margin-bottom: 1vh;
+}
+
+/* RIGHT STUFF */
+.right-about {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 50vw;
+    height: 100vh;
+}
+
+.right-about>div{
+    padding-right: 5vw;
+}
+
+.exam-title {
+    padding-top: 1vh;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.exam-subtitle {
+    font-weight: bold;
+    color: #3A3A3A;
+    padding: 2vh 0;
+}
+
+.exam-paragraph {
+    font-weight: extra-light 200;
+    color: #3A3A3A;
+    line-height: 22px;
+}
+
+.about-exam{
+    background-color: #9CD9D9;
+    padding: 4vh 3vw 4vh 5vw;
+    height: 45vh;
+}
+
+.right-checklist {
+    background-color: white;
+    height:40vh;
+    padding: 4vh 3vw 4vh 5vw;
+    height: 30vh;
+}
+
+.checklist-title {
+    font-size: 36px;
+    color: #3A3A3A;
+}
+
+.checklist-subtitle {
+    font-weight: bold;
+    padding: 2vh 0;
+    color: #3A3A3A;
+}
+
+.about-exam-notes {
+    background-color: #F2E9BB;
+    padding: 4vh 3vw 4vh 5vw;
+    height: auto;
+
+}
+
+.checklist-paragraph {
+    line-height: 22px;
+    color: #3A3A3A;
+}
+
+.dot-text-pink {
+    color: #F29191;
+    font-size: 18px;
+    padding-right: 0.4vw;
+}
+
+@media(max-width:1250px) {
+    .left-about-info>h2, .review-title, .exam-title, .checklist-title {
+        font-size: 34px;
+    }
+
+    .left-about-note,
+    .left-about-clinic-hours,
+    .review>p,
+    .exam-paragraph,
+    .exam-subtitle,
+    .checklist-subtitle,
+    .checklist-paragraph,
+    .about-exam-notes {
+        font-size: 16px;
+    }
+
+    .exam-paragraph, .checklist-paragraph {
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 1100px){
+    .left-about-info>h2, .review-title, .exam-title, .checklist-title {
+        font-size: 30px;
+    }
+
+    .left-about-note,
+    .left-about-clinic-hours,
+    .review>p,
+    .exam-paragraph,
+    .exam-subtitle,
+    .checklist-subtitle,
+    .checklist-paragraph,
+    .about-exam-notes {
+        font-size: 14px;
+    }
+
+    .left-about-call-box1 {
+        font-size: 16px;
+    }
+
+    .left-about-call-box2 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .left-about-info>h2, 
+    .review-title, .exam-title, 
+    .checklist-title {
+        font-size: 25px;
+    }
+
+    .left-about-note,
+    .left-about-clinic-hours,
+    .review>p,
+    .exam-paragraph,
+    .exam-subtitle,
+    .checklist-subtitle,
+    .checklist-paragraph,
+    .about-exam-notes {
+        font-size: 14px;
+    }
+}
+
+/* This is for mobile */
+@media screen and (max-width:800px){
+    .about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 200vh;
+    width: 100%;
+    }
+
+    /* LEFT STUFF */
+    .left-about{
+        width: 100vw;
+        background-color: #F2E9BB;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .left-about-info {
+        background-color: #9CD9D9;
+        width: auto;
+        height: 30%;
+        padding-right: 5vw;
+    }
+
+    .left-about-note{
+        margin: 5vh;
+        align-self: center;
+    }
+
+    .left-about-call-box {
+        display: flex;
+        flex-direction: row;
+        padding: 0 5vw;
+        justify-content: center;
+    }
+
+    .left-about-call-box1 {
+        padding: 1vw;
+        width: 40vw;
+    }
+
+    .left-about-call-box2 {
+        margin-left: 10vw;
+        padding: 1vw;
+        width: 40vw;
+    }
+
+    .left-about-clinic-hours{
+        margin-top: 5vh;
+        padding: 0 5vw;
+    }
+
+    .left-about-reviews{
+        margin-top: 5vh;
+        width: auto;
+        padding: 0 5vw;
+        height: auto;
+    }
+
+    /* RIGHT STUFF */
+    .right-about {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .right-about>div{
+        padding: 5vw;
+    }
+
+    .exam-title {
+        padding-top: 2vh;
+        color: white;
+    }
+
+    .exam-subtitle {
+        font-weight: bold;
+    }
+
+    .exam-paragraph {
+        font-weight: extra-light 200;
+    }
+
+    .about-exam{
+        background-color: #9CD9D9;
+        padding-left: 5vw;
+        height: 65vmax;
+    }
+
+    .right-checklist {
+        background-color: white;
+        padding-left: 5vw;
+        height: 40vmax;
+    }
+
+    .about-exam-notes {
+        background-color: #F2E9BB;
+        height: auto;
+        padding-left: 5vw;
+    }
+}
