@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Nav {
   height: 13vh;
   width: 100%;
