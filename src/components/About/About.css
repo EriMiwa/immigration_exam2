@@ -243,7 +243,10 @@
         background-color: #9CD9D9;
         width: auto;
         height: 30%;
-        padding-left: 5vw;
+        
+    }
+    .left-about-info>h2{
+        margin: 0 12vw 0 6vw;
     }
 
     .left-about-note{
