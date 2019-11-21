@@ -13,7 +13,7 @@ function Home() {
             <div className="title-area">
               <h1>Dr. Turban Firstname</h1>
               <h3>— Ph.D. Clinical Psychotherapist</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>Our clinic can help you with all the exams needed for immigration purpose. You can have your x-ray and blood tests done in one place, saving you a lot of time.</p>
             </div>
             <div className="btn-area">
               <button className="btn-red btn-long" >Schedule Appointment</button>
