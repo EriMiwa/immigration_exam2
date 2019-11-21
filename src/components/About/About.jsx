@@ -16,15 +16,19 @@ function About() {
                     <p>To book an appointment, please call or email our clinic today. </p>
                 </div>
                 <div className="left-about-call-box">
-                    <div className="left-about-call-box1 btn-red">
-                        <p>CALL NOW TO BOOK</p>
-                        <p>604.356.3617</p>
-                        <p><span>(8 am till 8pm)</span></p>
-                    </div>
-                    <div className="left-about-call-box2 btn-red">
-                        <p>Schedule</p>
-                        <p>Appointment</p>
-                    </div>
+                    <a href="tel:6043563617" >
+                        <div className="left-about-call-box1 btn-red">
+                            <p>CALL NOW TO BOOK</p>
+                            <p>604.356.3617</p>
+                            <p><span>(8 am till 8pm)</span></p>
+                        </div>
+                    </a>
+                    <a href="mailto:panelphysicians@gmail.com?Subject=Appointment%20medical%20exam" >
+                        <div className="left-about-call-box2 btn-red">
+                            <p>Schedule</p>
+                            <p>Appointment</p>
+                        </div>
+                    </a>
                 </div>
                 <div className="left-about-clinic-hours">
                     Clinic hours:<br/>
