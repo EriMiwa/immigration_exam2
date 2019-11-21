@@ -34,17 +34,16 @@
     position: absolute;
     top:0;
     z-index: 100;
-    margin: 12vh 9vw 12vh 3vw;
+    margin: 12vh 18vw 12vh 3vw;
 }
 
 .left-about-info-bg{
-    background-image: url('../../resources/background_02.png');
+    background-image: url('../../resources/background_03.svg');
     background-repeat: no-repeat;
-    transform: rotateY(180deg);
     height: 100%;
-    width: 36.45vw;
+    width: 36.4vw;
     background-size: cover;
-    background-position: right -3px bottom 0;
+    background-position: right -2px bottom 0;
 }
 
 
@@ -197,7 +196,10 @@
 }
 
 @media (max-width: 1100px){
-    .left-about-info>h2, .review-title, .exam-title, .checklist-title {
+    .left-about-info>h2, 
+    .review-title, 
+    .exam-title, 
+    .checklist-title {
         font-size: 30px;
     }
 
@@ -268,13 +270,12 @@
     }
 
     .left-about-info-bg{
-    background-image: url('../../resources/background_02.png');
+    background-image: url('../../resources/background_03.svg');
     background-repeat: no-repeat;
-    transform: rotateY(180deg);
     height: 100%;
     width: 105vw;
     background-size: cover;
-    background-position: right -3px bottom -5px;
+    background-position: left -5px bottom;
     }
     
     .left-about-info>h2{

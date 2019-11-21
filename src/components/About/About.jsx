@@ -1,8 +1,6 @@
 import React from 'react';
 import './About.css';
 
-import reviewStars from '../../resources/review-stars.png'
-
 function About() {
     return (
         <div className="about-container" id="about">

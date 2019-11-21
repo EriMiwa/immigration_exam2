@@ -32,8 +32,8 @@ class Home extends React.Component {
           <div className="container-left">
             {(
               this.state.width < 800 ? 
-              <img src={imgTitleSp} alt="Doctor photo" /> :
-              <img src={imgTitle} alt="Doctor photo" /> 
+              <img src={imgTitleSp} alt="Dr. Turban" /> :
+              <img src={imgTitle} alt="Dr. Turban" /> 
             )}
           </div>
           <div className="container-right">
@@ -43,7 +43,7 @@ class Home extends React.Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div className="btn-area">
-              <button className="btn-red btn-long" >Schedule Appointment</button>
+              <button className="btn-red btn-long" onclick="location.href='mailto:abc@xyz.com'">Schedule Appointment</button>
             </div>
           </div>
         </div>
