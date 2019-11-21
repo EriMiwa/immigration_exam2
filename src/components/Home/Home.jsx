@@ -1,13 +1,40 @@
 import React from 'react';
 import './Home.css';
-import imgTitle from '../../resources/image-title.png';
+import imgTitle from '../../resources/image-title.svg';
+import imgTitleSp from '../../resources/image-title-sp.svg';
 
-function Home() {
-  return (
-    <>
-      <div className="Home" id="home">
-        <div className="container-left">
-          <img src={imgTitle} alt="Doctor photo" />
+class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        width: 0,
+    }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {  
+      this.setState({ width: window.innerWidth });
+  }
+
+  render () {
+    return (
+      <>
+        <div className="Home" id="home">
+          <div className="container-left">
+            {(
+              this.state.width < 800 ? 
+              <img src={imgTitleSp} alt="Doctor photo" /> :
+              <img src={imgTitle} alt="Doctor photo" /> 
+            )}
           </div>
           <div className="container-right">
             <div className="title-area">
@@ -19,8 +46,9 @@ function Home() {
               <button className="btn-red btn-long" >Schedule Appointment</button>
             </div>
           </div>
-      </div>
-    </>
-  );
+        </div>
+      </>
+    );
+  }
 }
 export default Home;
