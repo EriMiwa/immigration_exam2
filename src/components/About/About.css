@@ -19,12 +19,34 @@
 }
 
 .left-about-info {
-    background-color: #9CD9D9;
-    width: 57%;
-    height: 20%; 
-    padding: 12vh 3vw 12vh 5vw;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #9CD9D9; */
+    
+    width: 50vw;
+    height: 100vh; 
+    
     font-family: Marion;
+    
 }
+
+.left-about-info>h2{
+    position: absolute;
+    top:0;
+    z-index: 100;
+    margin: 12vh 9vw 12vh 3vw;
+}
+
+.left-about-info-bg{
+    background-image: url('../../resources/background_02.png');
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 36.45vw;
+    background-size: cover;
+    background-position: right -3px bottom 0;
+}
+
 
 .left-about-info>h2 {
     font-size: 36px;
@@ -240,13 +262,26 @@
     }
 
     .left-about-info {
-        background-color: #9CD9D9;
         width: auto;
-        height: 30%;
+        height: 30vh;
         
     }
+
+    .left-about-info-bg{
+    background-image: url('../../resources/background_02.png');
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 105vw;
+    background-size: cover;
+    background-position: right -3px bottom -5px;
+    }
+    
     .left-about-info>h2{
-        margin: 0 12vw 0 6vw;
+        position: absolute;
+        top:0;
+        z-index: 100;
+        margin: 6vh 12vw 0 12vw;
     }
 
     .left-about-note{
@@ -303,7 +338,7 @@
     .exam-title {
         padding-top: 2vh;
         color: white;
-        margin: 0 12vw 0 6vw;
+        margin: 3vh 6vw 3vh 6vw;
     }
 
     .exam-subtitle {

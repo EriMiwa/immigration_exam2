@@ -8,6 +8,7 @@ function About() {
         <div className="about-container" id="about">
             <div className="left-about">
                 <div className="left-about-info">
+                    <div className="left-about-info-bg"></div>
                     <h2>We do immigration exams for
                         anyone who currently lives in
                         Canada.
