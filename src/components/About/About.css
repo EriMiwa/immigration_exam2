@@ -27,7 +27,6 @@
 
 .left-about-info>h2 {
     font-size: 36px;
-    font-family: Marion;
 }
 
 .left-about-note{
@@ -164,8 +163,8 @@
 
 .about-exam-notes {
     background-color: #F2E9BB;
-    padding: 4vh 3vw 4vh 5vw;
-    height: auto;
+    padding: 2vh 3vw 3vh 5vw;
+    height: 15vmax;
 
 }
 
@@ -252,7 +251,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 200vh;
+    height: auto;
     width: 100%;
     }
 
@@ -260,7 +259,7 @@
     .left-about{
         width: 100vw;
         background-color: #F2E9BB;
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -274,7 +273,7 @@
     }
 
     .left-about-note{
-        margin: 5vh;
+        margin: 5vh 3vw;
         align-self: center;
     }
 
@@ -302,7 +301,7 @@
     }
 
     .left-about-reviews{
-        margin-top: 5vh;
+        margin: 3vh 0 0 3vw;
         width: auto;
         padding: 0 5vw;
         height: auto;
@@ -314,7 +313,7 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 100vw;
-        height: 100vh;
+        height: auto;
     }
 
     .right-about>div{
@@ -337,18 +336,18 @@
     .about-exam{
         background-color: #9CD9D9;
         padding-left: 5vw;
-        height: 65vmax;
+        height: auto;
     }
 
     .right-checklist {
         background-color: white;
         padding-left: 5vw;
-        height: 40vmax;
+        height: auto;
     }
 
     .about-exam-notes {
         background-color: #F2E9BB;
-        height: auto;
+        height: 15vmin;
         padding-left: 5vw;
     }
 }
