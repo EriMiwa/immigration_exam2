@@ -18,9 +18,6 @@ function Nav() {
         <div>
           <a href="#contact" className="Nav-text_link">Contact</a>
         </div>
-        {/* <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
-        </div> */}
       </div>
     </div>
   );
