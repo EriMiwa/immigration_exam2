@@ -5,7 +5,7 @@ import reviewStars from '../../resources/review-stars.png'
 
 function About() {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="left-about">
                 <div className="left-about-info">
                     <h2>We do immigration exams for

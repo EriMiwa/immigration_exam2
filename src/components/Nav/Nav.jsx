@@ -9,13 +9,13 @@ function Nav() {
         <a href="#">Dr. Lana Turban</a>
       </div>
       <div className="Nav-menu">
-        <div className="contactWrapper" id="home">
+        <div>
           <a href="#home" className="Nav-text_link">Home</a>
         </div>
-        <div className="contactWrapper" id="about">
+        <div>
           <a href="#about" className="Nav-text_link">About</a>
         </div>
-        <div className="contactWrapper" id="contact">
+        <div>
           <a href="#contact" className="Nav-text_link">Contact</a>
         </div>
         {/* <div>
