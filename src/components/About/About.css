@@ -22,7 +22,8 @@
     background-color: #9CD9D9;
     width: 57%;
     height: 20%; 
-    padding: 4vh 3vw 4vh 5vw;
+    padding: 12vh 3vw 12vh 5vw;
+    font-family: Marion;
 }
 
 .left-about-info>h2 {
@@ -31,8 +32,8 @@
 
 .left-about-note{
     color: #3A3A3A;
-    font-size: 16px;
-    margin: 2vh auto 2vh 5vw;
+    font-size: 1.5vw;
+    margin: 5vh auto 5vh 5vw;
 }
 
 .left-about-call-box {
@@ -71,39 +72,18 @@
 }
 
 .left-about-clinic-hours{
-    margin-top: 2vh;
-    width: 75%;
-    padding-left: 5vw;
-    color: #3A3A3A;
-}
-
-.left-about-reviews{
     margin-top: 5vh;
     width: 75%;
     padding-left: 5vw;
-    height: auto;
-}
-
-.review-title {
-    padding: 1vh 0;
-    font-size: 36px;
     color: #3A3A3A;
-    text-align: center;
+}
+.about-exam-notes {
+    background-color: #F2E9BB;
+    padding: 5vh 3vw 5vh 5vw;
+    height: 15vmax;
+
 }
 
-.review {
-    margin-bottom: 3vh;
-}
-
-.review-initial {
-    background: #FFC90A;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-align: center;
-    line-height:32px;
-    margin-bottom: 1vh;
-}
 
 /* RIGHT STUFF */
 .right-about {
@@ -139,14 +119,14 @@
 
 .about-exam{
     background-color: #9CD9D9;
-    padding: 4vh 3vw 4vh 5vw;
+    padding: 5vh 3vw 4vh 5vw;
     height: 45vh;
 }
 
 .right-checklist {
     background-color: white;
     height:40vh;
-    padding: 4vh 3vw 4vh 5vw;
+    padding: 7vh 3vw 4vh 5vw;
     height: 30vh;
 }
 
@@ -161,12 +141,6 @@
     color: #3A3A3A;
 }
 
-.about-exam-notes {
-    background-color: #F2E9BB;
-    padding: 2vh 3vw 3vh 5vw;
-    height: 15vmax;
-
-}
 
 .checklist-paragraph {
     line-height: 22px;
@@ -269,12 +243,13 @@
         background-color: #9CD9D9;
         width: auto;
         height: 30%;
-        padding-right: 5vw;
+        padding-left: 5vw;
     }
 
     .left-about-note{
         margin: 5vh 3vw;
         align-self: center;
+        font-size: 3.3vw;
     }
 
     .left-about-call-box {
@@ -286,25 +261,27 @@
 
     .left-about-call-box1 {
         padding: 1vw;
-        width: 40vw;
+        width: 60vw;
     }
 
     .left-about-call-box2 {
+        display: none;
         margin-left: 10vw;
         padding: 1vw;
         width: 40vw;
     }
 
     .left-about-clinic-hours{
-        margin-top: 5vh;
+        margin: 5vh 12vw 0 6vw;
         padding: 0 5vw;
     }
 
-    .left-about-reviews{
-        margin: 3vh 0 0 3vw;
-        width: auto;
-        padding: 0 5vw;
-        height: auto;
+    .about-exam-notes {
+        background-color: #F2E9BB;
+        height: 15vmin;
+    }
+    .about-exam-notes>li{
+        margin: 0 12vw 0 6vw;
     }
 
     /* RIGHT STUFF */
@@ -323,21 +300,29 @@
     .exam-title {
         padding-top: 2vh;
         color: white;
+        margin: 0 12vw 0 6vw;
     }
 
     .exam-subtitle {
         font-weight: bold;
+        margin: 0 12vw 0 6vw;
     }
 
     .exam-paragraph {
         font-weight: extra-light 200;
+        margin: 0 12vw 0 6vw;
     }
 
     .about-exam{
         background-color: #9CD9D9;
         padding-left: 5vw;
         height: auto;
+        
     }
+
+   
+
+    
 
     .right-checklist {
         background-color: white;
@@ -345,9 +330,13 @@
         height: auto;
     }
 
-    .about-exam-notes {
-        background-color: #F2E9BB;
-        height: 15vmin;
-        padding-left: 5vw;
+    .checklist-paragraph{
+        margin: 0 12vw 6vh 6vw;
     }
+
+    .right-checklist>h2{
+        margin: 3vh 6vw 0 6vw;
+    }
+
+    
 }

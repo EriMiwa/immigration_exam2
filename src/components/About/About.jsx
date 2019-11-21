@@ -32,20 +32,9 @@ function About() {
                     Monday to Friady from 9 am till 5pm,<br/>
                     Saturday: 9 am till 1pm.
                 </div>
-                <div className="left-about-reviews">
-                    <h2 className="review-title">Reviews</h2>
-                    <div className="review">
-                        <img  className="review-stars" src={reviewStars} alt="reviewStars"/>
-                        <div className="review-initial">G</div>
-                        <p>The doctor's exam involves a health questionnaire plus a
-                        general physical examination.</p>
-                    </div>
-                    <div className="review">
-                        <img className="review-stars" src={reviewStars} alt="reviewStars"/>
-                        <div className="review-initial">G</div>
-                        <p>The doctor's exam involves a health questionnaire plus a
-                        general physical examination.</p>
-                    </div>
+                <div className="about-exam-notes">
+                    <li><span className="dot-text-pink">●</span>You don't need to bring photos.</li>
+                    <li><span className="dot-text-pink">●</span>No fasting is required.</li>
                 </div>
             </div>
             <div className="right-about" >
@@ -89,10 +78,6 @@ function About() {
                     4. Glasses for the vision test (if you wear them) <br/>
                     5. Payment
                     </p>
-                </div>
-                <div className="about-exam-notes">
-                    <li><span className="dot-text-pink">●</span>You don't need to bring photos.</li>
-                    <li><span className="dot-text-pink">●</span>No fasting is required.</li>
                 </div>
             </div>
         </div>
