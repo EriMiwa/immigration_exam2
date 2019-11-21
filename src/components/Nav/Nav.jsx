@@ -9,16 +9,13 @@ function Nav() {
       </div>
       <div className="Nav-menu">
         <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+          <a href="#hero" className="Nav-text_link">Home</a>
         </div>
         <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+          <a href="#about" className="Nav-text_link">About</a>
         </div>
         <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
-        </div>
-        <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+          <a href="#contact-sctn" className="Nav-text_link">Contacts</a>
         </div>
       </div>
     </div>

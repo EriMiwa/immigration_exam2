@@ -5,7 +5,7 @@ import imgTitle from '../../resources/image-title.png';
 function Home() {
   return (
     <>
-      <div className="Home">
+      <div className="Home" id="hero">
         <div className="container-left">
           <img src={imgTitle} alt="Doctor photo" />
           </div>

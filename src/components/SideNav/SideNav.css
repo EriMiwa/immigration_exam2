@@ -1,5 +1,5 @@
 .SideNav {
-    position: absolute;
+    position: fixed;
     top: 300px;
     right: 1vw;
 }
