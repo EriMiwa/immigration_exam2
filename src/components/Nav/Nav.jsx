@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 
+
 function Nav() {
   return (
     <div className="Nav">
@@ -8,18 +9,18 @@ function Nav() {
         <a href="#">Dr. Lana Turban</a>
       </div>
       <div className="Nav-menu">
-        <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+        <div className="contactWrapper" id="home">
+          <a href="#home" className="Nav-text_link">Home</a>
         </div>
-        <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+        <div className="contactWrapper" id="about">
+          <a href="#about" className="Nav-text_link">About</a>
         </div>
-        <div>
-          <a href="#" className="Nav-text_link">Navigation</a>
+        <div className="contactWrapper" id="contact">
+          <a href="#contact" className="Nav-text_link">Contact</a>
         </div>
-        <div>
+        {/* <div>
           <a href="#" className="Nav-text_link">Navigation</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
