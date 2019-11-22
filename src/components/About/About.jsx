@@ -23,7 +23,7 @@ function About() {
                             <p><span>(8 am till 8pm)</span></p>
                         </div>
                     </a>
-                    <a href="mailto:panelphysicians@gmail.com?Subject=Appointment%20medical%20exam" >
+                    <a href="mailto:info@immigrationexam.ca?Subject=Appointment%20medical%20exam" >
                         <div className="left-about-call-box2 btn-red">
                             <p>Schedule</p>
                             <p>Appointment</p>

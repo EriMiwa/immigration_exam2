@@ -43,7 +43,7 @@ class Home extends React.Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div className="btn-area">
-              <a href="mailto:panelphysicians@gmail.com?Subject=Appointment%20medical%20exam" >
+              <a href="mailto:info@immigrationexam.ca?Subject=Appointment%20medical%20exam" >
                 <button className="btn-red btn-long">Schedule Appointment</button>
               </a>
             </div>
