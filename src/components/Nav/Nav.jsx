@@ -9,15 +9,9 @@ function Nav() {
         <a href="/">Dr. Lana Turban</a>
       </div>
       <div className="Nav-menu">
-        <div>
-          <a href="#home" className="Nav-text_link">Home</a>
-        </div>
-        <div>
-          <a href="#about" className="Nav-text_link">About</a>
-        </div>
-        <div>
-          <a href="#contact" className="Nav-text_link">Contact</a>
-        </div>
+        <a href="#home" className="Nav-text_link">Home</a>
+        <a href="#about" className="Nav-text_link">About</a>
+        <a href="#contact" className="Nav-text_link">Contact</a>
       </div>
     </div>
   );

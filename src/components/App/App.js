@@ -6,15 +6,17 @@ import SideNav from '../SideNav/SideNav';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import { Element } from 'react-scroll';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <SideNav/>
-      <Home />
-      <About/>
-      <Contact/>
+      <SideNav />
+      <Element name="#home"><Home /></Element>
+      <Element name="#about"><About /></Element>
+      <Element name="#contact"><Contact /></Element>
+
     </div>
   );
 }
