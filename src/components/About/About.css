@@ -41,9 +41,9 @@
     background-image: url('../../resources/background_03.svg');
     background-repeat: no-repeat;
     height: 100%;
-    width: 36.4vw;
+    width: 36.1vw;
     background-size: cover;
-    background-position: right -2px bottom 0;
+    background-position: left -5px bottom 0;
 }
 
 
@@ -175,7 +175,10 @@
 }
 
 @media(max-width:1250px) {
-    .left-about-info>h2, .review-title, .exam-title, .checklist-title {
+    .left-about-info>h2, 
+    .review-title, 
+    .exam-title, 
+    .checklist-title {
         font-size: 34px;
     }
 
@@ -190,8 +193,18 @@
         font-size: 16px;
     }
 
-    .exam-paragraph, .checklist-paragraph {
+    .exam-paragraph, 
+    .checklist-paragraph {
         line-height: 16px;
+    }
+
+    .left-about-info-bg{
+        background-image: url('../../resources/background_03.svg');
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 36vw;
+        background-size: cover;
+        background-position: left -5px bottom 0;
     }
 }
 
@@ -221,7 +234,6 @@
     .left-about-call-box2 {
         font-size: 20px;
     }
-
 }
 
 @media (max-width: 900px) {
