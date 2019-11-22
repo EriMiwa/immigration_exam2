@@ -38,7 +38,7 @@ class Home extends React.Component {
           </div>
           <div className="container-right">
             <div className="title-area">
-              <h1>Dr. Turban Firstname</h1>
+              <h1>Dr. Turban Lana</h1>
               <h3>— Ph.D. Clinical Psychotherapist</h3>
               <p>Our clinic can help you with all the exams needed for immigration purpose. You can have your x-ray and blood tests done in one place, saving you a lot of time.</p>
             </div>
