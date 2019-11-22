@@ -29,7 +29,7 @@ function About() {
                 </div>
                 <div className="left-about-clinic-hours">
                     Clinic hours:<br/>
-                    Monday to Friady from 9 am till 5pm,<br/>
+                    Monday to Friday from 9 am till 5pm,<br/>
                     Saturday: 9 am till 1pm.
                 </div>
                 <div className="left-about-reviews">
@@ -54,9 +54,9 @@ function About() {
                         About exam
                     </div>
                     <p className="exam-paragraph">
-                    The doctor's exam involvesa health questionnaire plus a general physical <br/>
-                    examination. Doctor will listen to your heart and lungs, and check your skin,<br/>
-                    among other things. This requires removing some clothing. <br/></p>
+                    The doctor's exam involves a health questionnaire plus a general physical 
+                    examination. Doctor will listen to your heart and lungs, and check your skin,
+                    among other things. This requires removing some clothing. </p>
                     <h2 className="exam-subtitle">
                     Any other required testing depends on the age of the applicant:
                     </h2>
@@ -64,9 +64,9 @@ function About() {
                     ●Urine test (age 5 and older)
                     </li>
                     <li className="exam-paragraph">
-                    ●Chest x-ray (age 11 or older). If you are pregnant, you may need to return for <br/>
-                    an x-ray when it is safer for the growing baby. This is a standard safety <br/>
-                    precaution for women who are pregnant. It won't affect the outcome of your <br/>
+                    ●Chest x-ray (age 11 or older). If you are pregnant, you may need to return for 
+                    an x-ray when it is safer for the growing baby. This is a standard safety 
+                    precaution for women who are pregnant. It won't affect the outcome of your 
                     immigration application. 
                     </li>
                     <li className="exam-paragraph">
@@ -83,7 +83,7 @@ function About() {
                     </h2>
                     <p className="checklist-paragraph">
                     1. Valid identification: Passport or Canadian Driver's License <br/>
-                    2. Medical Report - Client Biodata and Summary Form - IMM 1017 (if <br/>
+                    2. Medical Report - Client Biodata and Summary Form - IMM 1017 (if 
                     applicable. NOT required for upfront exam). <br/>
                     3. All prescription medication, names and dosages (if applicable) <br/>
                     4. Glasses for the vision test (if you wear them) <br/>
