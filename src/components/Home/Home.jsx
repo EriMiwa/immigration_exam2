@@ -43,7 +43,7 @@ class Home extends React.Component {
               <p>Our clinic can help you with all the exams needed for immigration purpose. You can have your x-ray and blood tests done in one place, saving you a lot of time.</p>
             </div>
             <div className="btn-area">
-              <a href="mailto:panelphysicians@gmail.com?Subject=Appointment%20medical%20exam" >
+              <a href="mailto:info@immigrationexam.ca?Subject=Appointment%20medical%20exam" >
                 <button className="btn-red btn-long">Schedule Appointment</button>
               </a>
             </div>
