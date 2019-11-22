@@ -1,21 +1,21 @@
 .SideNav {
-    position: absolute;
-    top: 300px;
+    position: fixed;
+    top: 50%;
     right: 1vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
 }
 
 .SideNav-link {
-    border: 1px solid #000;
-    width: 33px;
-    height: 33px;
     box-sizing: border-box;
-    border-radius: 50%;
     display: block;
-    margin: 20px;
+    margin: 1.6rem 1rem;
+    color: #796F6D;
+    font-size: 1.4rem;
 }
 
-.current {
-    background: #00CDFD;
-    padding: 4px;
-    background-clip: content-box;
-} 
+.sideNavActive {
+    color: #00CDFD;
+}
