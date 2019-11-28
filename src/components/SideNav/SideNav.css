@@ -19,3 +19,15 @@
 .sideNavActive {
     color: #00CDFD;
 }
+
+@media(max-width:1100px) {
+    .SideNav {
+        position: fixed;
+        top: 35%;
+        right: 1vw;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 100;
+    }
+}
