@@ -41,7 +41,7 @@
     background-image: url('../../resources/background_03.svg');
     background-repeat: no-repeat;
     height: 100%;
-    width: 36.1vw;
+    width: 36.5vw;
     background-size: cover;
     background-position: left -5px bottom 0;
 }
@@ -282,12 +282,12 @@
     }
 
     .left-about-info-bg{
-    background-image: url('../../resources/background_03.svg');
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 105vw;
-    background-size: cover;
-    background-position: left -5px bottom;
+        background-image: url('../../resources/background_03.svg');
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 105vw;
+        background-size: cover;
+        background-position: left -5px bottom;
     }
     
     .left-about-info>h2{
