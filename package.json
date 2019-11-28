@@ -1,5 +1,6 @@
 {
   "name": "immigration_exam2",
+  "homepage": "http://immigrationexam.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
