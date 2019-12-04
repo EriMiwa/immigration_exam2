@@ -1,41 +1,17 @@
 import React from 'react';
 import './SideNav.css';
+import { Link } from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
-class SideNav extends React.Component {
-
-  changeColor=()=>{
-    var element = document.getElementById("first");
-      element.classList.toggle("current");
-  }
-  changeColor1=()=>{
-    var element = document.getElementById("second");
-      element.classList.toggle("current");
-  }
-  changeColor2=()=>{
-    var element = document.getElementById("third");
-      element.classList.toggle("current");
-  }
-render(){
-
+function SideNav() {
   return (
     <div className="SideNav">
-      <div>
-        <a href="#hero" className="SideNav-link" id="first" onClick={this.changeColor.bind(this)}></a>
-      </div>
-      <div>
-        <a href="#about" className="SideNav-link" id="second" onClick={this.changeColor1.bind(this)}></a>
-      </div>
-      <div>
-        <a href="#contact-sctn" className="SideNav-link"  id="third" onClick={this.changeColor2.bind(this)}></a>
-      </div>
+      <Link activeClass="sideNavActive" className="SideNav-link" to="#home" spy={true} offset={-100}><FontAwesomeIcon icon={faCircle} /></Link>
+      <Link activeClass="sideNavActive" className="SideNav-link" to="#about" spy={true}><FontAwesomeIcon icon={faCircle} /></Link>
+      <Link activeClass="sideNavActive" className="SideNav-link" to="#contact" spy={true}><FontAwesomeIcon icon={faCircle} /></Link>
     </div>
   );
 }
-}
-  
-
 
 export default SideNav; 

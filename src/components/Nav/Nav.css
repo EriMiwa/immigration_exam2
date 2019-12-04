@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Nav {
   height: 13vh;
   width: 100%;
@@ -15,7 +18,7 @@ li {
 }
 
 .Nav-title a {
-  color:#000;
+  color:#796F6D;
   font-family: "Blinker";
   font-size: 30px;
   transition-duration: 0.25s;

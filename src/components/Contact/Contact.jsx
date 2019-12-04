@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contactWrapper" id="contact-sctn">
+    <div className="contactWrapper" id="contact">
       <div className="contactContents">
         <div className="contactTitle mainBGColor">
           <h1>Contact</h1>

@@ -20,7 +20,7 @@
 }
 
 .title-area {
-  background-image: url('../../resources/background_02.png');
+  background-image: url('../../resources/background_02.svg');
   background-position: left -10px top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -52,7 +52,7 @@
 
 .btn-red {
   background: #F29191;
-  color: #F2DAD8;
+  color: #FFF;
   border: #F29191;
   transition-duration: 0.25s;
 }
